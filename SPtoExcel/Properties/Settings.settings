@@ -1,0 +1,31 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SPtoExcel.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Server" Type="System.String" Scope="User">
+      <Value Profile="(Default)">dw-devsql</Value>
+    </Setting>
+    <Setting Name="Database" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CosmosPolaris2</Value>
+    </Setting>
+    <Setting Name="IntegratedSecurity" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SQLUserID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="SQLPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">password</Value>
+    </Setting>
+    <Setting Name="SQLQuery" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Select * from Polaris_Security</Value>
+    </Setting>
+    <Setting Name="SheetNames" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sheeta
+Sheetb
+Sheetc
+Sheetd
+Sheete</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
