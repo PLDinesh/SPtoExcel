@@ -142,7 +142,7 @@ namespace SPtoExcel
                     XL.Range oRange = oSheet.get_Range(excelRange, Type.Missing);
                     XL.Style oStyle = (XL.Style)oRange.Style;
                     oStyle.NumberFormat = "@";
-                    
+
 
                     /*
                     int iRow = 2;
@@ -164,9 +164,9 @@ namespace SPtoExcel
                         }
                         iRow++;
                     }
-                     * */
-                    oRng = oSheet.get_Range("A1", "IV1");
-                    oRng.EntireColumn.AutoFit();
+                    */
+                    XL.Range oRng2 = oSheet.get_Range("A1", "IV1");
+                    oRng2.EntireColumn.AutoFit();
 
                     /*
                     int iRow = 2;
