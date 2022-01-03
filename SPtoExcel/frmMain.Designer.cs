@@ -69,7 +69,7 @@
             this.txtServerName.Name = "txtServerName";
             this.txtServerName.Size = new System.Drawing.Size(195, 20);
             this.txtServerName.TabIndex = 1;
-            this.txtServerName.Text = "dw-devsql";
+            this.txtServerName.Text = "(local)";
             // 
             // Server
             // 
@@ -168,7 +168,7 @@
             this.txtDatabaseName.Name = "txtDatabaseName";
             this.txtDatabaseName.Size = new System.Drawing.Size(195, 21);
             this.txtDatabaseName.TabIndex = 5;
-            this.txtDatabaseName.Text = "CosmosPolaris";
+            this.txtDatabaseName.Text = "AdventureWorks";
             // 
             // grdResultsGrid
             // 
@@ -243,7 +243,7 @@
             this.label5.Size = new System.Drawing.Size(185, 39);
             this.label5.TabIndex = 2;
             this.label5.Text = "Work Sheet names (Optional)\r\nPlease enter the unique sheet names \r\nseparated by n" +
-                "ew line";
+    "ew line";
             // 
             // frmMain
             // 
@@ -266,8 +266,8 @@
             this.Controls.Add(this.button1);
             this.Name = "frmMain";
             this.Text = "Export Query/SP output to Excel";
-            this.Load += new System.EventHandler(this.frmMain_Load);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdResultsGrid)).EndInit();
