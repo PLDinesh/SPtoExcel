@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SPtoExcel")]
 [assembly: AssemblyDescription("SPtoExcel")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Värde Partners Inc")]
+[assembly: AssemblyCompany("Mannar And Company")]
 [assembly: AssemblyProduct("SPtoExcel")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
